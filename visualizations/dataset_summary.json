@@ -1,0 +1,14 @@
+{
+  "total_images": 15,
+  "total_annotations": 23,
+  "total_classes": 1,
+  "splits_breakdown": {
+    "data": {
+      "images": 15,
+      "annotations": 23,
+      "classes": {
+        "crack": 23
+      }
+    }
+  }
+}

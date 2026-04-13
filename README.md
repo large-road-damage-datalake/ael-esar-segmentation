@@ -1,0 +1,27 @@
+# AEL - ESAR
+
+## Overview
+
+This package contains the ESAR subset from AEL as a segmentation benchmark.
+
+- Task: segmentation
+- Images: 15
+- Annotations: 23
+- Classes: 1 (crack)
+- Annotation format: paired PNG masks
+
+## Source Dataset
+
+- Family: AEL Crack Detection Database
+- Subset: ESAR
+- Source URL: https://www.irit.fr/~Sylvie.Chambon/Crack_Detection_Database.html
+- Paper URL: https://ieeexplore.ieee.org/abstract/document/7572082
+
+## License
+
+Not explicitly stated on source page.
+
+## Repository Links
+
+- Package repo: https://github.com/large-road-damage-datalake/ael-esar-segmentation
+- Source dataset: https://www.irit.fr/~Sylvie.Chambon/Crack_Detection_Database.html
