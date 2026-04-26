@@ -6,7 +6,7 @@ This package contains the ESAR subset from AEL as a segmentation benchmark.
 
 - Task: segmentation
 - Images: 15
-- Annotations: 96
+- Annotations: 77
 - Classes: 1 (crack)
 - Annotation format: paired PNG masks
 

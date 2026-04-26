@@ -59,7 +59,7 @@
           "source_labels": [
             "crack"
           ],
-          "instances": 96
+          "instances": 77
         }
       ]
     }
@@ -97,15 +97,15 @@
   },
   "statistics": {
     "n_images": 15,
-    "n_annotations": 96,
+    "n_annotations": 77,
     "n_images_with_annotations": 15,
-    "average_annotations_per_image": 6.4,
+    "average_annotations_per_image": 5.133333333333334,
     "dataset_size": "2.11 MB",
     "dataset_size_bytes": 2217564,
     "dataset_file_count": 30,
     "image_format": "png_masks",
     "class_distribution": {
-      "crack": 96
+      "crack": 77
     },
     "split": {
       "data": {

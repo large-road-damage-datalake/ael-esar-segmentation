@@ -57,7 +57,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 9,
+      "objects": 7,
       "image_size": {
         "width": 768,
         "height": 512
@@ -82,7 +82,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 4,
+      "objects": 3,
       "image_size": {
         "width": 768,
         "height": 512
@@ -107,7 +107,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 7,
+      "objects": 6,
       "image_size": {
         "width": 768,
         "height": 512
@@ -132,7 +132,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 4,
+      "objects": 3,
       "image_size": {
         "width": 768,
         "height": 512
@@ -157,7 +157,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 19,
+      "objects": 13,
       "image_size": {
         "width": 768,
         "height": 512
@@ -232,7 +232,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 5,
+      "objects": 4,
       "image_size": {
         "width": 768,
         "height": 512
