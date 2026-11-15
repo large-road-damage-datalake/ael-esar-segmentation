@@ -30,7 +30,7 @@
     "family_description": "AEL is a French top-down pavement crack dataset family composed of multiple subsets such as AIGLE_RN, ESAR, and LCMS."
   },
   "imaging_setup": {
-    "camera": "Road-surface imaging setup",
+    "camera": "ESAR static road inspection system",
     "camera_viewpoint": [
       "top-down"
     ],
@@ -115,9 +115,11 @@
         "annotation_coverage": 1.0,
         "dataset_size": "2.11 MB",
         "dataset_size_bytes": 2217564,
-        "dataset_file_count": 30
+        "dataset_file_count": 30,
+        "annotated": true
       }
-    }
+    },
+    "n_images_in_annotated_splits": 15
   },
   "geographic_coverage": {
     "countries": [
@@ -138,22 +140,22 @@
   "authors": [
     {
       "name": "Rabih Amhaz",
-      "affiliation": "LUNAM Universit\u00e9, IFSTTAR",
+      "affiliation": "LUNAM Universit\u00e9, IFSTTAR, Bouguenais, France; Institut de Recherche en Informatique de Toulouse (IRIT), Universit\u00e9 de Toulouse, Toulouse, France",
       "role": "Dataset Creator"
     },
     {
       "name": "Sylvie Chambon",
-      "affiliation": "Institut de Recherche en Informatique de Toulouse (IRIT)",
+      "affiliation": "Institut de Recherche en Informatique de Toulouse (IRIT), INP-ENSEEIHT, Universit\u00e9 de Toulouse, Toulouse, France",
       "role": "Dataset Creator"
     },
     {
-      "name": "Jerome Idier",
-      "affiliation": "LUNAM Universit\u00e9, IRCCyN",
+      "name": "J\u00e9r\u00f4me Idier",
+      "affiliation": "LUNAM Universit\u00e9, IRCCyN, UMR CNRS 6597, \u00c9cole Centrale de Nantes, Nantes, France",
       "role": "Dataset Creator"
     },
     {
       "name": "Vincent Baltazart",
-      "affiliation": "LUNAM Universit\u00e9, IFSTTAR",
+      "affiliation": "LUNAM Universit\u00e9, IFSTTAR, Bouguenais, France",
       "role": "Dataset Creator"
     }
   ],
@@ -161,11 +163,11 @@
   "links": {
     "github": "https://github.com/large-road-damage-datalake/ael-esar-segmentation",
     "download": "https://www.irit.fr/~Sylvie.Chambon/Crack_Detection_Database.html",
-    "paper": "https://ieeexplore.ieee.org/abstract/document/7572082",
+    "paper": "https://doi.org/10.1109/TITS.2015.2477675",
     "homepage": "https://www.irit.fr/~Sylvie.Chambon/Crack_Detection_Database.html"
   },
   "citation": {
-    "bibtex": "@article{amhaz2016automatic,\n  title = {Automatic Crack Detection on Two-Dimensional Pavement Images: An Algorithm Based on Minimal Path Selection},\n  author = {Amhaz, Rabih and Chambon, Sylvie and Idier, Jerome and Baltazart, Vincent},\n  journal = {IEEE Transactions on Intelligent Transportation Systems},\n  year = {2016},\n  url = {https://ieeexplore.ieee.org/abstract/document/7572082}\n}"
+    "bibtex": "@article{amhaz2016automatic,\n  title = {Automatic Crack Detection on Two-Dimensional Pavement Images: An Algorithm Based on Minimal Path Selection},\n  author = {Amhaz, Rabih and Chambon, Sylvie and Idier, J{\\'e}r{\\^o}me and Baltazart, Vincent},\n  journal = {IEEE Transactions on Intelligent Transportation Systems},\n  volume = {17},\n  number = {10},\n  pages = {2718--2729},\n  year = {2016},\n  doi = {10.1109/TITS.2015.2477675}\n}"
   },
   "tags": [
     "segmentation",
